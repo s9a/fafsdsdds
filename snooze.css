@@ -34,7 +34,7 @@
 * { box-sizing: border-box }
 
 h1 { 
-	font: 1.618em sans-serif;
+	font: 1.382em sans-serif;
 	margin: 0;
 }
 
@@ -47,7 +47,7 @@ header {
   align-self: center;
   border-radius: 0% 0% 50% 50%;
   display: flow-root;
-  margin-bottom: 2em;
+  margin-bottom: 1rem;
   padding: 1em;
 }
 
@@ -70,30 +70,23 @@ textarea {
   border-width: 0;
   box-sizing: border-box;
   display: inline-block;
+  flex-basis: 60vh;
   font: inherit;
-  font-size: 1.618rem;
-  margin-block-end: 1rem;
-  margin-inline-start: 1rem;
-  margin-inline-end: 1rem;
-  max-width: 100%;
-  min-height: 50vh;
+  margin-block: 1rem;
+  width: min(80vw, 30em);
   overflow: auto;
   padding: 1rem;
-  width: 61.8vmax;
 }
 
 button {
 	border-radius: 50% 50% 0 0;
-	align-self: center;
 	border-style: none;
   display: inline-flex;
+  flex-basis: 20vh;
   font: inherit;
-  font-size: 1.236rem;
   margin: 1rem auto 0;
   max-width: 100%;
-  overflow: visible;
   padding: 1rem;
-  padding-bottom: 2rem;
   text-decoration: double underline;
   touch-action: manipulation;
 }
